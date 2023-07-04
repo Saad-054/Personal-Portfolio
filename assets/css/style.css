@@ -260,6 +260,118 @@
   }
   
   /* Updated @media queries */
+
+  @media only screen and (max-width: 1900px) {
+    #about {
+        display: flex;
+        border-right: 2px solid rgb(8, 8, 88);
+        margin-left: auto;
+        height: 320px;
+        margin-right: 20px;
+        margin-top: 80px;
+    }
+
+  @media only screen and (max-width: 1700px) {
+    #heroGrid {
+      height: 40vh;
+    }
+    
+    #subtitle {
+      top: 125px;
+    }
+    
+    .subHeading {
+      font-size: 40px;
+      margin-left: 70px;
+    }
+    
+    #aboutText {
+      margin-top: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 18px;
+    }
+    
+    #about {
+        display: flex;
+        border-right: 2px solid rgb(8, 8, 88);
+        margin-left: 30px;
+        height: 320px;
+        margin-right: 20px;
+        margin-top: 80px;
+    }
+      
+    #work {
+        display: flex;
+        border-right: 2px solid rgb(8, 8, 88);
+        height: 900px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 90px;
+        margin-bottom: 50px;
+    }
+    
+    #contact {
+        display: flex;
+        border-right: 2px solid rgb(8, 8, 88);
+        margin-right: 40px;
+        margin-top: 120px;
+        margin-bottom: 30px;
+        }
+    
+    .boxheading {
+      width: 220px;
+      font-size: 28px;
+    }
+    
+    .smallboxheading {
+      width: 220px;
+      font-size: 16px;
+    }
+    
+    #navBar h1 {
+      font-size: 60px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    
+    #navigation {
+      font-size: 22px;
+      margin-right: 70px;
+    }
+    
+    #categoryGrid {
+        display: flex;
+        margin: -50px 5% 0;
+        margin-left: -100px;
+        margin-top: -900px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+          "subheading Surf Surf"
+          "subheading LED Calculator"
+          "subheading Pastel Run";
+        grid-auto-rows: 300px;
+      }
+      
+    #footer {
+      margin-left: 300px;
+      margin-right: 20px;
+      gap: 120px;
+      font-size: 22px;
+      margin-bottom: 70px;
+      margin-top: -80px;
+    }
+    
+    h3 {
+      font-size: 32px;
+    }
+    
+    h4 {
+      font-size: 42px;
+      width: 150px;
+    }
+  }
   
   @media only screen and (max-width: 1000px) {
     #heroGrid {
@@ -292,6 +404,7 @@
       margin-right: 10px;
       margin-top: 70px;
       height: 800px;
+      margin-bottom: 50px;
     }
     
     #contact {
@@ -371,6 +484,7 @@
       margin-right: 5px;
       margin-top: 50px;
       height: 700px;
+      margin-bottom: 50px;
     }
     
     #contact {
@@ -419,3 +533,82 @@
     }
   }
   
+  @media only screen and (max-width: 450px) {
+    #heroGrid {
+      height: 60vh;
+    }
+    
+    #subtitle {
+      top: 55px;
+    }
+    
+    .subHeading {
+      font-size: 24px;
+      margin-left: 0;
+    }
+    
+    #aboutText {
+      margin-top: 0;
+      margin-left: 0;
+      margin-right: 0;
+      font-size: 14px;
+    }
+    
+    #about {
+      margin-right: 0;
+      margin-top: 0;
+      height: 200px;
+    }
+    
+    #work {
+      margin-right: 0;
+      margin-top: 0;
+      height: 600px;
+      margin-bottom: 50px;
+    }
+    
+    #contact {
+      margin-right: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    
+    .boxheading {
+      width: 140px;
+      font-size: 22px;
+    }
+    
+    .smallboxheading {
+      width: 140px;
+      font-size: 12px;
+    }
+    
+    #navBar h1 {
+      font-size: 40px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    
+    #navigation {
+      font-size: 16px;
+      margin-right: 0;
+    }
+    
+    #footer {
+      margin-left: 0;
+      margin-right: 0;
+      gap: 40px;
+      font-size: 16px;
+      margin-bottom: 30px;
+      margin-top: 0;
+    }
+    
+    h3 {
+      font-size: 24px;
+    }
+    
+    h4 {
+      font-size: 26px;
+      width: 100px;
+    }
+  }
