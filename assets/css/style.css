@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Updated CSS */
+  
+  body {
+    background-color:rgb(244, 235, 248);
+  }
+  
+  /* Grid CSS */
+  #heroGrid {
+    display: flex;
+    margin: 0;
+    display: grid;
+    min-height: 100px;
+    height: 30vh;
+    grid-template-rows: 75% 25%;
+    grid-template-columns: 100% 0%;
+    grid-template-areas:
+      "featuredProduct secondaryProduct"
+      "featuredProduct CTA";
+  }
+  
+  #featuredProduct {
+    grid-area: featuredProduct;
+    background-image: url("../images/02-hero-bg.jpg");
+  }
+  
+  #subtitle {
+    display: flex;
+    background-color: rgb(134, 207, 207);
+    position: absolute;
+    right: 120px;
+    top: 175px;
+    font-size: 35px;
+    padding: 25px;
+    max-width: 550px;
+    z-index: 100;
+  }
+  
+  .heroGridArea {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    position: relative;
+  }
+  
+  .subHeading {
+    display: flex;
+    color: rgb(8, 8, 88);
+    align-items: center;
+    font-size: 50px;
+    margin-left: 100px; /* Updated value to move the subheading more to the right */
+  }
+  
+  #about {
+    display: flex;
+    border-right: 2px solid rgb(8, 8, 88);
+    height: 320px;
+    margin-right: 20px;
+    margin-top: 80px;
+  }
+  
+  #work {
+    display: flex;
+    border-right: 2px solid rgb(8, 8, 88);
+    height: 900px;
+    margin-right: 20px;
+    margin-top: 90px;
+  }
