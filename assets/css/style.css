@@ -3,13 +3,10 @@
     padding: 0;
   }
   
-  /* Updated CSS */
-  
   body {
-    background-color:rgb(244, 235, 248);
+    background-color: rgb(244, 235, 248);
   }
   
-  /* Grid CSS */
   #heroGrid {
     display: flex;
     margin: 0;
@@ -54,7 +51,7 @@
     color: rgb(8, 8, 88);
     align-items: center;
     font-size: 50px;
-    margin-left: 100px; /* Updated value to move the subheading more to the right */
+    margin-left: 100px;
   }
   
   #about {
@@ -71,4 +68,75 @@
     height: 900px;
     margin-right: 20px;
     margin-top: 90px;
+  }
+  
+  #contact {
+    display: flex;
+    border-right: 2px solid rgb(8, 8, 88);
+    margin-right: 20px;
+    margin-top: 120px;
+    margin-bottom: 30px;
+  }
+  
+  #aboutText {
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+    margin-top: 70px;
+    margin-left: 80px;
+    margin-right: 90px;
+    max-width: 1400px;
+    line-height: 1.5;
+  }
+  
+  #categoryGrid {
+    display: flex;
+    margin: -50px 5% 0;
+    margin-left: -300px;
+    margin-top: -900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "subheading Surf Surf"
+      "subheading LED Calculator"
+      "subheading Pastel Run";
+    grid-auto-rows: 300px;
+  }
+  
+  #Surf {
+    grid-area: Surf;
+    background-image: url("../images/02-portfolio-4.jpg");
+  }
+  
+  #LED {
+    grid-area: LED;
+    background-image: url("../images/02-portfolio-1.jpg");
+  }
+  
+  #Calculator {
+    grid-area: Calculator;
+    background-image: url("../images/02-portfolio-2.jpg");
+  }
+  
+  #Pastel {
+    grid-area: Pastel;
+    background-image: url("../images/02-portfolio-3.jpg");
+  }
+  
+  #Run {
+    grid-area: Run;
+    background-image: url("../images/02-run-buddy.jpg");
+  }
+  
+  .categoryGridArea {
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 15px 15px 10px;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
   }
